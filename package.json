@@ -14,6 +14,7 @@
   "author": "Chanoch <chanoch@clearbrook.it> (https://clearbrook.it)",
   "license": "MIT",
   "dependencies": {
+    "@chanoch/clearsite-components": "0.0.1",
     "@chanoch/clearblog-components": "0.1.3",
     "@chanoch/simple-react-router": "^0.3.2",
     "async": "^2.6.0",

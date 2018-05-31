@@ -1,6 +1,8 @@
 import React from 'react';
 
-import {Layout, Declaration} from '@chanoch/chanoch-com-components';
+import {Layout, Declaration} from '@chanoch/clearsite-components';
+
+import config from '../config';
 
 export default class Http404Page extends React.PureComponent {
     constructor(props) {
@@ -8,7 +10,6 @@ export default class Http404Page extends React.PureComponent {
     }
 
     render() {
-        const {config} = this.props;
         return (
             <Layout title="Page Not Found" active="home" config={config}>
                 <Declaration title="We couldn't find that page."

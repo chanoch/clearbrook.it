@@ -27,7 +27,7 @@ function server(mountpath) {
     app.use(mountpath, express.static(path.join(__dirname, '../public')));
 
     app.use(`${mountpath}/simple-react-router.js.map`, function(req,res) {
-        res.sendFile(path.join(__dirname, '../../node_modules/@chanoch/simple-react-router/dist/simple-react-router.js.map'));
+        res.sendFile(path.join  (__dirname, '../../node_modules/@chanoch/simple-react-router/dist/simple-react-router.js.map'));
     });
 
     indexPage = index(mountpath);

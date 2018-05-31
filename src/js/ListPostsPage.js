@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import {Provider, connect } from 'react-redux';
 
-import {Layout, Divider} from '@chanoch/chanoch-com-components';
+import {Layout, Divider} from '@chanoch/clearsite-components';
 import {PostSummary} from '@chanoch/clearblog-components';
 
 import config from '../config';
@@ -29,7 +29,7 @@ class ListPostsPage extends React.Component {
         const {store, posts} = this.props;
         return (
             <Provider store={store}>
-                <Layout title="Simple react blog." active={"Blog"} config={config}>
+                <Layout title="Simple react blog." active={"home"} config={config}>
                     <div className="col-12">
                         <h1 className="section__heading">Posts</h1>
                         {posts && posts.map &&

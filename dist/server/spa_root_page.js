@@ -6,7 +6,7 @@ function index(mountpath) {
                         <meta http-equiv="X-UA-Compatible" content="IE=edge">
                         <meta name="viewport" content="width=device-width, initial-scale=1">
                         <meta name="author" content="Clearbrook IT">
-                        <title>Chanoch's Blog</title>
+                        <title>Clearbrook IT | Blog</title>
 
                         <link rel="stylesheet" href="/assets/plugins/ionicons/css/ionicons.min.css">
 

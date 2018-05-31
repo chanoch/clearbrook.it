@@ -11,7 +11,7 @@ import ViewPostAction from './posts/action/ViewPostAction';
 import ReceivePostsAction from './posts/action/ReceivePostsAction';
 import ReceivePostAction from './posts/action/ReceivePostAction';
 
-var mountpath = '/';
+var mountpath = '/clearblog';
 
 const initialState = {
     posts: [], // the list of blog posts

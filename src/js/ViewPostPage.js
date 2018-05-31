@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import {Provider, connect } from 'react-redux';
 
-import {Layout} from '@chanoch/chanoch-com-components';
+import {Layout} from '@chanoch/clearsite-components';
 import {Post} from '@chanoch/clearblog-components';
 
 import config from '../config';
@@ -22,7 +22,7 @@ class ViewPostPage extends React.Component {
         const {post, store} = this.props;
         return (
             <Provider store={store}>
-                <Layout title="Simple react blog." active={"Blog"} config={config}>
+                <Layout title="Clearbrook blog." active={"Blog"} config={config}>
                     <div className="col-12">
                     {post && 
                         <Post postKey={post.key} post={post}/>
