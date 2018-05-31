@@ -1,0 +1,6 @@
+src/
+webpack.config.js
+.webpack
+.babelrc
+.code-workspace
+*.tgz

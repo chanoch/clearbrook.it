@@ -1,0 +1,14 @@
+{
+    "twitterLink": "https://twitter.com/chanochwiggers",
+    "twitterLinkText": "Chanoch's twitter feed",
+    "linkedinLink": "https://linkedin.com/chanoch",
+    "linkedinLinkText": "Chanoch's Linked In profile",
+    "rights": "© 2018 clearbrook.it. All rights reserved.",
+    "email": "chanoch@clearbrook.it",
+    "title": "clearbrook.it",
+    "strapline": "Software Delivery",
+    "headerLinkText": "Linked In",
+    "menuItems": [
+        {"key": "home", "link": "/index.html", "linkText": "Home" }
+    ]
+}
